@@ -1,3 +1,24 @@
+//---------Data types --------------------------
+Integer barrelNumbers = 1000;
+system.debug(' value of barrelNumbers variable: '+barrelNumbers);
+
+//-----boolean-------
+Boolean shipmentDispatched;
+shipmentDispatched = true;
+System.debug('Value of shipmentDispatched '+shipmentDispatched);
+
+//ShipmentDate can be stored when shipment is dispatched.---datetime---
+Date ShipmentDate = date.today();
+System.debug('ShipmentDate '+ShipmentDate);
+
+//-----long-----------
+Long companyRevenue = 21474838973344648L;
+system.debug('companyRevenue'+companyRevenue);
+
+//-----string-------------------
+String companyName = 'Abc International';
+System.debug('Value companyName variable'+companyName);
+
 //------------String operation----------
 String str = 'i am a string variable ';
 System.debug('Actual String: '+str);
@@ -158,6 +179,8 @@ System.debug(PI);
 //assignment operator
 Integer x = 10;
 System.debug(X);
+
+//---------------------------------------------------------
 //addition operator
 x = x + 5;
 System.debug(X);
