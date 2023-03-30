@@ -139,3 +139,123 @@ System.debug(students);
 // check if map has the key
 System.debug(class2020.containsKey(11008892));
 System.debug(class2020.containsKey(11008893));
+
+
+// Constant
+// Declare Constant Variable
+final Decimal PI;
+System.debug(PI); //prints null
+
+// initialize variable
+PI = 3.14159;
+System.debug(PI);
+
+// update variable value - NOT ALLOWED
+PI = 2.14159;
+System.debug(PI);
+
+//Operators
+//assignment operator
+Integer x = 10;
+System.debug(X);
+//addition operator
+x = x + 5;
+System.debug(X);
+
+//subtraction operator
+x = x - 5;
+System.debug(X);
+
+//multiplication operator
+x = x * 5;
+System.debug(X);
+
+//division operator
+x = x / 5;
+System.debug(X);
+
+-------------------------------------------------------------------------
+Integer x= 50;
+
+//Increment operator
+x++;
+System.debug(x);
+
+//Decrement operator
+x--;
+System.debug(x);
+
+//addition assignment operator
+x+=5;
+System.debug(x);
+
+//subtruction assignment operator
+x-=5;
+System.debug(x);
+
+//division assignment operator
+x*=5;
+System.debug(x);
+
+//multiplication assignment operator
+x/=5;
+System.debug(x);
+
+.................................................................................
+Boolean first = true;
+Boolean second = false;
+Boolean result;
+
+//AND operator
+result = first && second;
+System.debug('AND operator: '+ result);
+
+//OR operator
+result = first || second;
+System.debug('OR operator: '+ result);
+
+//Equality operator
+result = (first == second);
+System.debug('Equality operator: '+ result);
+result =  (5==5);
+System.debug('Equality operator: '+ result);
+
+//less than operator
+result = (5<6);
+System.debug('Less than operator: '+ result);
+
+//greater than operator
+result = (5>6);
+System.debug('greater than operator: '+ result);
+
+//less than equal operator
+result = (5<=6);
+System.debug('Less than equal operator: '+ result);
+
+//greater than equal operator
+result = (5>=6);
+System.debug('greater than operator: '+ result);
+
+
+// NOT operator
+System.debug('Not operator before - '+ first);
+first = !first;
+System.debug('Not operator after - '+ first);
+
+// Ternary operator
+String greeting = '';
+Integer hour = 10;
+greeting = (hour < 12) ? 'Good Morning' : 'Good Afternoon';
+System.debug('Ternary operator=10 - '+ greeting);
+hour = 13;
+greeting = (hour < 12) ? 'Good Morning' : 'Good Afternoon';
+System.debug('Ternary operator 13 - '+ greeting);
+
+//type conversion
+String physicsMarks = '72';
+String chemistryMarks = '64';
+String mathMarks = '87';
+System.debug(physicsMarks + chemistryMarks + mathMarks);
+System.debug(Integer.valueOf(physicsMarks) 
+             + Integer.valueOf(chemistryMarks) 
+             + Integer.ValueOf(mathMarks)); 
