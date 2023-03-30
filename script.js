@@ -104,4 +104,64 @@ console.log(`I like to drink ${age >= 18 ? 'wine ' : 'water '}`);
 
 */
 
+///////////////////////////////////////////////
+
+
+  //----type conversion---------
+const inputYear = '1999'
+let year = 2023
+console.log(year - Number(inputYear))
+console.log(Number(inputYear)+ 18)
+
+//---------logical operation-------
+let age = 73
+
+if(age<6 || age>70){
+    console.log("Free")
+}
+else if(age>6 && age<17){
+    console.log("Child discount")
+}
+else if(age>17 && age<26){
+    console.log("student discount")
+}
+else if(age>26 && !age<66){
+    console.log("full price")
+}
+
+//------switch--------
+
+const x = 10
+const y = 20
+let operator = '+'
+let result
+switch(operator){
+    case '+':
+        console.log('Adddition operation')
+        result = x+y
+        console.log(result)
+        break
+
+    case '-':
+        console.log('Subtraction operation')
+        result = x-y
+        console.log(result)
+        break
+
+    case '*':
+        console.log('Multiplication operation')
+        result = x*y
+        console.log(result)
+        break
+    case '/':
+        console.log('Division operation')
+        result = x/y
+        console.log(result)
+        break
+
+    default:
+        console.log('Invalid operation')
+}
+
+
 
