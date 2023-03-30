@@ -1,4 +1,5 @@
-// let, const and var
+
+/*// let, const and var
 let age = 30;
 age = 31;
 
@@ -62,5 +63,45 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
-
+*/
 ////////////////////////////////////
+
+
+
+/*
+//...........Assignment...............
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
+// Comparison operators
+console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
+
+// The Conditional (Ternary) Operator
+const age = 23;
+// age >= 18 ? console.log('I like to drink wine ') : console.log('I like to drink water ');
+
+const drink = age >= 18 ? 'wine ' : 'water';
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = 'wine ';
+} else {
+  drink2 = 'water ';
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? 'wine ' : 'water '}`);
+
+*/
+
+
