@@ -19,6 +19,22 @@ system.debug('companyRevenue'+companyRevenue);
 String companyName = 'Abc International';
 System.debug('Value companyName variable'+companyName);
 
+//--------id----------
+ID  i  = ‘b022w00000EKkeNBBO’
+System.debug('ID:' + i);
+
+//---------date----------
+Date  dt  = date.today();
+System.debug('Today: '+ dt);
+
+//-----Datetime----------
+DataTime  currentDT   =  DateTime.now();
+System.debug('Datetime: '+ currentDT);
+
+//----------------time---------
+Time  currentT   =  DateTime.now().time();
+System.debug('Time: '+ currentT);
+
 //------------String operation----------
 String str = 'i am a string variable ';
 System.debug('Actual String: '+str);
